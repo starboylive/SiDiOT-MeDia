@@ -1,39 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SiDiOTMedia</title>
-    <link rel="shortcut icon" href="images/cropped_circle_image.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="home.css">
-</head>
-<style>
-    .updating {
-        font-family: 'Manrope', sans-serif;
-        text-align: center;
-        margin-top: 20%;
-    }
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiDiOTMedia</title>
+
+  <link rel="shortcut icon" href="images/cropped_circle_image.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+  
+  <style>
+    /* Reset & base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    body{
-        background-color: #f4f4f4;
-        color: #333;
+    body {
+      font-family: "Manrope", sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
     }
-</style>
+
+    .updating {
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .updating h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .updating p {
+      font-size: 1.125rem;
+      line-height: 1.6;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .updating h1 {
+        font-size: 2rem;
+      }
+      .updating p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .updating h1 {
+        font-size: 1.6rem;
+      }
+      .updating p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
 <body>
-    
-    <div class="updating">
-        <h1>SiDiOTMedia</h1>
-        <p>SiDiOTMedia is currently under development. Please check back later for more information!</p>
-    </div>
-    
+  <div class="updating">
+    <h1>SiDiOTMedia</h1>
+    <p>SiDiOTMedia is currently under development. Please check back later for more information!</p>
+  </div>
 </body>
 </html>
