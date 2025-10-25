@@ -459,7 +459,10 @@ body {
     width: 12rem;
     margin-top: 1.5rem;
   }
-
+    .headerlog2 {
+  font-size: 5rem;
+  font-weight: 900;
+    }
 }
 
 /* Mobile Devices */
@@ -533,6 +536,12 @@ body {
     margin-top: 1rem;
   }
 
+     /* .headerlog2 {
+  font-size: 3rem;
+  font-weight: 900;
+    } */
+    
+
 }
 
 /* Extra Small Screens */
@@ -590,6 +599,10 @@ body {
   .headerlog {
     font-size: 3rem;
   }
+    .headerlog2 {
+  font-size: 3rem;
+  font-weight: 900;
+    }
 
 }
 
@@ -667,3 +680,4 @@ body {
     padding: 0.6rem;
   }
 }
+
