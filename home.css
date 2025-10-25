@@ -129,36 +129,6 @@ body {
     text-align: center;
 }
 
-.headerlog {
-  font-size: 4rem;
-  font-weight: 900;
-  background: linear-gradient(
-    270deg,
-    #ff007c,
-    #ffbe0b,
-    #00f5d4,
-    #9b5de5,
-    #f15bb5
-  );
-  /* background: linear-gradient(90deg, #5f2c82, #49a09d, #1A0033, #4B0082); */
-  background-size: 800% 800%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradientFlow 6s ease infinite;
-}
-
-@keyframes gradientFlow {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 #header {
   font-size: 2rem;
   font-weight: 900;
@@ -301,6 +271,66 @@ body {
   }
 }
 
+.headerlog {
+  font-size: 4rem;
+  font-weight: 900;
+  background: linear-gradient(
+    270deg,
+    #ff007c,
+    #ffbe0b,
+    #00f5d4,
+    #9b5de5,
+    #f15bb5
+  );
+  /* background: linear-gradient(90deg, #5f2c82, #49a09d, #1A0033, #4B0082); */
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow 6s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.headerlog2 {
+  font-size: 5rem;
+  font-weight: 900;
+  background: linear-gradient(
+    270deg,
+    #ff007c,
+    #ffbe0b,
+    #00f5d4,
+    #9b5de5,
+    #f15bb5
+  );
+  /* background: linear-gradient(90deg, #5f2c82, #49a09d, #1A0033, #4B0082); */
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow 6s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .mainframe {
   display: flex;
   justify-content: flex-start;
@@ -324,6 +354,7 @@ body {
   height: 40vh;
   width: 90%;
   margin: auto;
+  margin-top: 1rem;
   overflow: hidden;
   padding: 2rem;
 }
@@ -354,12 +385,21 @@ body {
 #aboutmelogo {
   width: 15rem;
   height: auto;
-  align-self: flex-end;
-  position: relative;
+  display: flex;
+  -ms-flex-align: center;
+  /* align-self: flex-end; */
+    margin-right: 10%;
   z-index: 10;
 }
 
-
+#aboutmeservices {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: row; */
+  align-items:center;
+  /* gap: 2rem; */
+  margin-right: 3%;
+}
 
 /* ------------------ RESPONSIVE OPTIMIZATION ------------------ */
 
@@ -546,10 +586,11 @@ body {
     width: 8rem;
     margin-top: 1rem;
   }
-     .headerlog {
+
+  .headerlog {
     font-size: 3rem;
   }
-    
+
 }
 
 
@@ -626,4 +667,3 @@ body {
     padding: 0.6rem;
   }
 }
-
