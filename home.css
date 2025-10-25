@@ -213,7 +213,7 @@ body {
     .herobox,
     .herobox2 {
         width: 80%;
-        height: 35vh;
+        height: 25vh;
         margin: 0 auto;
     }
 
@@ -250,7 +250,7 @@ body {
     .herobox,
     .herobox2 {
         width: 90%;
-        height: 30vh;
+        height: 20vh;
     }
 
     #heroheader,
@@ -282,3 +282,4 @@ body {
         width: 90%;
     }
 }
+
