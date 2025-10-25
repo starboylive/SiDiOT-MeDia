@@ -546,6 +546,10 @@ body {
     width: 8rem;
     margin-top: 1rem;
   }
+     .headerlog {
+    font-size: 3rem;
+  }
+    
 }
 
 
@@ -622,3 +626,4 @@ body {
     padding: 0.6rem;
   }
 }
+
