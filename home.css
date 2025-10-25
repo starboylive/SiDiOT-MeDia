@@ -601,7 +601,7 @@ body {
   }
     .headerlog2 {
   font-size: 3rem;
-  font-weight: 900;
+  margin-bottom: 1rem;
     }
 
 }
@@ -680,4 +680,5 @@ body {
     padding: 0.6rem;
   }
 }
+
 
