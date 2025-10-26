@@ -27,7 +27,7 @@
         </nav>
     </div>
 
-    
+
 
     <div class="herobox-main">
         <div class="herobox">
@@ -62,54 +62,57 @@
                 idea — I’ve got the tools to make it unforgettable. I don’t just edit videos — I engineer visual weapons
                 of mass engagement. Whether it's turning raw clips into cinematic gold, creating reels that break the
                 algorithm, or making your brand look like it belongs on prime-time. I make your content unskippable. You
-                bring the vision. I bring the suit. Every frame I craft is designed to hit harder, look sharper, and resonate longer.
-This isn’t just editing — it’s storytelling reimagined for the digital battlefield.
+                bring the vision. I bring the suit. Every frame I craft is designed to hit harder, look sharper, and
+                resonate longer.
+                This isn’t just editing — it’s storytelling reimagined for the digital battlefield.
             </p>
 
             <!-- <img src="images/cropped_circle_image.png" alt="SiDiOTMedia" id="aboutmelogo"> -->
-        </div> 
-        
+        </div>
+
         <div class="aboutme" id="aboutme">
             <h1 id="aboutmeheader"><span class="serviceheader">Our </span><span class="headerlog2">Services</span></h1>
 
-           <ul id="aboutmeservices">
-            <li id="aboutmetext">Graphic Designing</li>
-            <li id="aboutmetext">Video Editing</li>
-            <li id="aboutmetext">Motion Graphics</li>
-            <li id="aboutmetext">Content Creation</li>
-           </ul>
+            <ul id="aboutmeservices">
+                <li id="aboutmetext">Graphic Designing</li>
+                <li id="aboutmetext">Video Editing</li>
+                <li id="aboutmetext">Motion Graphics</li>
+                <li id="aboutmetext">Content Creation</li>
+            </ul>
 
             <img src="images/cropped_circle_image.png" alt="SiDiOTMedia" id="aboutmelogo">
-        </div> 
-        
-
-
+        </div>
     </div>
 
-<!-- Contact Section -->
-<!-- <footer class="footer">
-  <div class="contact-container">
-    <h2 class="contact-heading">Get in Touch</h2>
-    <p class="contact-subtext">
-      Have a project, an idea, or just wanna say hi? Drop me a message below —
-      let’s create something unforgettable.
-    </p>
+    
 
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" class="contact-input" required>
-      <input type="email" placeholder="Your Email" class="contact-input" required>
-      <textarea placeholder="Your Message" class="contact-textarea" required></textarea>
-      <button type="submit" class="contact-btn">Send Message</button>
-    </form>
+    <!-- Contact Section -->
+    <footer class="footer">
+        <div class="contact-container">
+            <h2 class="contact-heading">Don't be shy, Suit up & Ping me!</h2>
+            <p class="contact-subtext">
+                Have a project, an idea, or just wanna say hi? Drop me a message below — <br>
+                lets create some crazy bangers!
+            </p>
 
-    <div class="social-links">
-      <a href="#" class="social-link">Instagram</a>
-      <a href="#" class="social-link">LinkedIn</a>
-      <a href="#" class="social-link">YouTube</a>
-    </div>
-  </div>
-</footer> -->
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" class="contact-input" required>
+                <input type="email" placeholder="Your Email" class="contact-input" required>
+                <textarea placeholder="Your Message" class="contact-textarea" required></textarea>
+                <button type="submit" class="contact-btn">Send Message</button>
+            </form>
 
+            <div class="social-links">
+                <a href="https://www.instagram.com/sidiswater" class="social-link">Instagram</a>
+                <a href="https://www.linkedin.com/in/starboylive" class="social-link">LinkedIn</a>
+                <a href="https://www.youtube.com/@sidiswired" class="social-link">YouTube</a>
+                <a href="https://github.com/starboylive" class="social-link"><span id="git">Github</span></a>
+            </div>
+        </div>
+
+        <p id="copyright">&copy; SiDiOTMeDiA 2025</p>
+
+    </footer>
 
 
 
@@ -117,6 +120,15 @@ This isn’t just editing — it’s storytelling reimagined for the digital bat
         function myFunction() {
             alert("Welcome to SiDiOTMedia!");
         }
+
+        const instaURL = "https://www.instagram.com/p/POST_ID/?__a=1";
+        fetch(instaURL)
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById("insta-image").src = data.graphql.shortcode_media.display_url;
+            })
+            .catch(err => console.log(err));
+
     </script>
 
 </body>
