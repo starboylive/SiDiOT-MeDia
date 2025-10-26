@@ -25,6 +25,10 @@ body {
     background-color: #edf1f5;
     padding: 0 1rem;
     flex-wrap: wrap;
+    position: sticky;
+    top: 1rem;
+    transition: all 0.3s ease;
+
 }
 
 #header {
@@ -401,6 +405,9 @@ body {
   margin-right: 3%;
 }
 
+
+
+
 /* ------------------ RESPONSIVE OPTIMIZATION ------------------ */
 
 /* Tablets (portrait/landscape) */
@@ -702,5 +709,12 @@ body {
     line-height: 2.2rem;
     letter-spacing: -0.08rem;
     padding: 0.6rem;
+  }
+
+  .serviceheader {
+    font-size: 3rem;
+    line-height: 2.8rem;
+    text-align: left;
+    margin-left: 16rem;
   }
 }
