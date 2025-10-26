@@ -15,7 +15,7 @@ body {
 .nav-container {
     font-family: "Manrope", Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 8vh;
     width: 90%;
@@ -869,4 +869,5 @@ body {
     margin-left: 16rem;
   }
 }
+
 
