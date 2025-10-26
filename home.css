@@ -47,7 +47,7 @@ body {
 }
 
 .navigation{
-    margin-left: 5rem; 
+    /* margin-left: 5rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -869,6 +869,7 @@ body {
     margin-left: 16rem;
   }
 }
+
 
 
 
