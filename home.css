@@ -29,6 +29,7 @@ body {
     top: 1rem;
     transition: all 0.3s ease;
     z-index: 999;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 #header {
@@ -43,6 +44,13 @@ body {
     cursor: pointer;
     border: 0.2rem solid #0145f2;
     border-radius: 2rem;
+}
+
+.navigation{
+    margin-left: 5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-links {
@@ -861,3 +869,4 @@ body {
     margin-left: 16rem;
   }
 }
+
