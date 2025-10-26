@@ -456,13 +456,20 @@ body {
   }
 
   #aboutmelogo {
-    width: 12rem;
-    margin-top: 1.5rem;
+    width: 11rem;
+    margin: auto;
+    margin-top: 2rem;
   }
-    .headerlog2 {
-  font-size: 5rem;
-  font-weight: 900;
-    }
+
+  #aboutmeservices {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+  }
+
 }
 
 /* Mobile Devices */
@@ -536,11 +543,15 @@ body {
     margin-top: 1rem;
   }
 
-     /* .headerlog2 {
-  font-size: 3rem;
-  font-weight: 900;
-    } */
-    
+  #aboutmeservices {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 15rem;
+  }
 
 }
 
@@ -579,7 +590,7 @@ body {
 
   #aboutmeheader {
     font-size: 2.4rem;
-    line-height: 2.4rem;
+    line-height: 2.5rem;
     margin-left: 0;
     text-align: center;
   }
@@ -599,10 +610,23 @@ body {
   .headerlog {
     font-size: 3rem;
   }
-    .headerlog2 {
-  font-size: 3rem;
-  margin-bottom: 3rem;
-    }
+
+  #aboutmeservices {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-left: 8rem;
+  }
+
+  .serviceheader {
+    font-size: 3rem;
+    line-height: 2.8rem;
+    text-align: left;
+    margin-right: 8rem;
+  }
 
 }
 
@@ -680,6 +704,3 @@ body {
     padding: 0.6rem;
   }
 }
-
-
-
