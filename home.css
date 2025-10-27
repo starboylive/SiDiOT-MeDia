@@ -410,7 +410,7 @@ body {
     width: 90%;
     margin: 2rem auto;
     gap: 0.8rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   /* ABOUT SECTION */
@@ -472,6 +472,12 @@ body {
     /* gap: 2rem; */
     margin-right: 3%;
   }
+
+  .herobutton a{
+    text-decoration: none;
+
+  }
+
 
   .graphic-design {
     color: #333;
@@ -618,15 +624,118 @@ body {
   color: #333;
 }
 
+.video-editing {
+  color: #333;
+  background-color: #edf1f5;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+  width: 90%;
+  margin: 2rem auto;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+.space1{
+  height: 3rem;
+  width: 100%;
+  /* background-color: #0052d4; */
+}
+
+/* Each row of videos */
+.vidPosts {
+  width: 90%;
+  margin: 3rem auto 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap; /* helps stacking naturally if needed */
+}
+
+/* Make YouTube iframes responsive */
+.vidPosts iframe {
+  border-radius: 1rem;
+  width: 48%; /* two videos per row on desktop */
+  height: 315px;
+}
+
+/* Responsive Adjustments */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .vidPosts iframe {
+    width: 45%;
+    height: 280px;
+  }
+}
+
+/* Mobile landscape / small tablets */
+@media (max-width: 768px) {
+  .vidPosts {
+    flex-direction: column;
+    align-items: center;
+  }
+  .vidPosts iframe {
+    width: 90%;
+    height: 250px;
+  }
+  .video-editing {
+    height: auto; /* allows it to expand naturally */
+  }
+  #viewMore{
+    margin-top: 1rem;
+  }
+  .viewMore-btn{
+    
+  }
+  #header3{
+    font-size: 3rem;
+  }
+}
+
+/* Mobile portrait (small phones) */
+@media (max-width: 480px) {
+  .vidPosts iframe {
+    width: 100%;
+    height: 200px;
+  }
+  
+  #header3{
+    font-size: 3rem;
+    line-height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+
+
+}
+
+/* View More Button Styles */
+.viewMore-btn-vd {
+  background-color: transparent;
+  border: 0;
+  text-decoration: none;
+  font-family: 'Manrope';
+}
+
+.viewMore-btn-vd a {
+  text-decoration: none;
+  color: #333;
+}
+
 .viewMore-vd {
   height: 5vh;
   width: 90%;
   background-color: transparent;
-  margin: 3rem auto;
+  margin: 3rem auto 15rem;
   border: 0.16rem solid black;
   border-radius: 1rem;
   transition: all 0.3s ease;
-  margin-bottom: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .viewMore-vd:hover {
@@ -636,62 +745,6 @@ body {
   cursor: pointer;
 }
 
-#viewMore-vd {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0.5rem;
-}
-
-.viewMore-btn-vd {
-  background-color: transparent;
-  border: 0;
-  text-decoration: none;
-  font-family: 'Manrope';
-  /* margin-top: 20rem; */
-}
-
-.viewMore-btn-vd a{
-  text-decoration: none;
-  color: #333;
-  /* margin-bottom: 20%; */
-}
-
-.herobutton a{
-  text-decoration: none;
-  color: #333;
-}
-
-.space1{
-  height: 8vh;
-  width: 90%;
-}
-
-.video-editing{
-  color: #333;
-  background-color: #edf1f5;
-  display: flex;
-  flex-direction: column;
-  border-radius: 2rem;
-  transition: all 0.3s ease;
-  height: 145vh;
-  width: 90%;
-  margin: 2rem auto;
-  overflow: hidden;
-}
-
-.vidPosts{
-  width: 90%;
-	height: 60vh;
-  margin: auto;
-	-moz-border-radius: 2rem;
-	-webkit-border-radius: 2rem;
-	border-radius: 2rem;
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem ;
-  gap: 1rem;
-}
 
 
 /* ==================== RESPONSIVE OPTIMIZATION ==================== */
