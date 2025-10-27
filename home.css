@@ -520,7 +520,7 @@ body {
 .header2 {
   height: 12vh;
   width: 60%;
-  margin: 3rem auto 0;
+  margin: 2rem auto 0;
   border-radius: 2rem;
   background-color: rgb(235, 235, 235);
   box-shadow: 5px 5px 15px rgba(1, 10, 2, 0.5);
@@ -535,6 +535,7 @@ body {
   letter-spacing: -0.2rem;
   line-height: 4rem;
   text-align: center;
+  padding: 3rem;
 }
 
 .viewMore {
@@ -567,6 +568,17 @@ body {
   text-decoration: none;
   font-family: 'Manrope';
 }
+
+.viewMore-btn a{
+  text-decoration: none;
+  color: #333;
+}
+
+.herobutton a{
+  text-decoration: none;
+  color: #333;
+}
+
 
 /* ==================== RESPONSIVE OPTIMIZATION ==================== */
 
