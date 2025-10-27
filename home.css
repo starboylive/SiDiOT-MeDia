@@ -658,6 +658,13 @@ body {
   border-radius: 1rem;
   width: 48%; /* two videos per row on desktop */
   height: 315px;
+  transition: all 0.3s ease;
+
+}
+
+.vidPosts iframe:hover{
+  transition: all 0.3s ease;
+  transform: scale(1.01);
 }
 
 /* Responsive Adjustments */
@@ -1300,3 +1307,4 @@ body {
     }
   }
 }
+
