@@ -40,11 +40,11 @@
         </div>
         <div class="herobox2">
             <!-- <button class="herobutton"> -->
-                <button class="herobutton">
-                    <a href="#viewMore">
-                         <h2 id="heroheader2">Video Editing</h2>
-                    </a>
-                </button>
+            <button class="herobutton">
+                <a href="#viewMore">
+                    <h2 id="heroheader2">Video Editing</h2>
+                </a>
+            </button>
             <!-- </button> -->
         </div>
         <div class="herobox">
@@ -148,22 +148,40 @@
         </div>
 
         <div class="vidPosts">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nr3fFMAymH4?si=zUqo3fr1hutiOwED" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/okt7-8iLzaU?si=9zNGDHAFSDgI686G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nr3fFMAymH4?si=zUqo3fr1hutiOwED"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/okt7-8iLzaU?si=9zNGDHAFSDgI686G"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="vidPosts">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/o0uaCumMLCg?si=v2cEZK8ZSY6R6IHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/DQ54dtjdO58?si=Q1dnmTCC7PyqHcJj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/o0uaCumMLCg?si=v2cEZK8ZSY6R6IHo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DQ54dtjdO58?si=Q1dnmTCC7PyqHcJj"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         </div>
         <div class="vidPosts">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/rObDKJbfBrU?si=nJLWEjhgwxlWs1ij" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/jzoz3W_FnrQ?si=UX5b-7i03jc1WxAa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rObDKJbfBrU?si=nJLWEjhgwxlWs1ij"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jzoz3W_FnrQ?si=UX5b-7i03jc1WxAa"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         </div>
 
         <div class="space1"></div>
-        
+
         <button class="viewMore-btn-vd">
             <a href="https://www.youtube.com/@sidiswired" target="_blank">
                 <div class="viewMore-vd">
@@ -184,12 +202,16 @@
                 lets create some crazy bangers!
             </p>
 
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" class="contact-input" required>
-                <input type="email" placeholder="Your Email" class="contact-input" required>
-                <textarea placeholder="Your Message" class="contact-textarea" required></textarea>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="hidden" name="access_key" value="1933ae2d-0d6a-4007-b1ad-0889373e31ab">
+
+                <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-input" required>
+                <textarea name="message" placeholder="Your Message" class="contact-textarea" required></textarea>
+
                 <button type="submit" class="contact-btn">Send Message</button>
             </form>
+
 
             <div class="social-links">
                 <a href="https://www.instagram.com/sidiswater" class="social-link">Instagram</a>
